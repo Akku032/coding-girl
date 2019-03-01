@@ -1,0 +1,9 @@
+def check_mat(A):
+    l=len(A[0])
+    for k in range(len(A)):
+        if len(A[k])!=0:
+            return False
+        return True
+    
+A=[[1,2,3],[3,4,5],[1,2,3]]
+print(check_mat(A))   
