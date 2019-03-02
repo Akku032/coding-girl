@@ -1,0 +1,14 @@
+#created by akanksha gupta
+#counting paranthesis
+
+k=0
+a=input()
+for i in a:
+    if i=='(':
+       k+=1
+    elif i==')':
+       k-=1
+if k==0:
+    print('no error')
+else:
+    print('error')
